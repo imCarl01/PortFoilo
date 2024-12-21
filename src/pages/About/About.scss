@@ -1,0 +1,133 @@
+.aboutS{
+    margin: 25px;
+    .me{
+        display: flex;
+        // justify-content: space-evenly;
+        align-items: center;
+        margin-top: 25px;
+        .name{
+           margin-left: 10px;
+        }
+
+        .myProfile{
+            width: 40px;
+            height: 40px;
+            color: #25a9df;
+            
+        }
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-top: 25px;
+        .profileSettings{
+            width: 600px;
+            // max-width: 700px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px;
+
+            .ccc h3{
+                color: #25a9df;
+                font-weight: bold;
+            }
+
+            .ico{
+                color: #25a9df;
+            }
+            .icon{
+                color: #ffff;
+                
+            }
+            
+            
+            .ccc{
+                display: flex;
+                align-items: center;
+            }
+            .rule{
+                margin-top: 5px;
+                height: 0.5px;
+                background-color: #c1c1c1;
+            }
+    
+            .bio{
+                margin-top: 15px;
+                text-align: justify;
+
+                p{
+                    margin-top: 10px;
+                }
+            }
+    
+            .btn{
+                margin-top: 30px;
+    
+                button{
+                    width: 140px;
+                    height: 40px;
+                    font-size: 15px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border: none;
+                    background-color: #25a9df;
+                    padding: 10px;
+                    
+                    a{
+                        text-decoration: none;
+                        color: rgb(255, 255, 255);
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    
+        .techStack{
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            padding: 20px;
+            .stack{
+                display: flex;
+                // justify-content: center;
+                align-items: center;
+                gap: 10px;
+                color: #25a9df;
+                h3{
+                    font-weight: bold;
+                }
+                
+            }
+            .skils{
+                // border: 1px solid;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 20px;
+                align-items: center;
+                max-width: 500px;
+                padding: 20px;
+        
+                .html{
+                    text-align: center;
+                    transition: transform 0.5s step-end; /* Smooth animation */
+                    cursor: pointer;
+                   
+                    img:hover{
+                        transform: scale(1.2);
+                    }
+                }
+               }
+        }
+      
+    
+    }
+
+    .about{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        margin-top: 50px;
+        gap: 5px;
+    }
+}
