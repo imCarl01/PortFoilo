@@ -1,8 +1,9 @@
+import NavBar from '../../components/NavBar/NavBar'
 import './Project.scss'
 
 const Project = () => {
   return (
-    <div>Project</div>
+    <div><NavBar/></div>
   )
 }
 
