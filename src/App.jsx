@@ -22,7 +22,7 @@ function App() {
 
 function RootApp() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <App />
     </BrowserRouter>
   );
