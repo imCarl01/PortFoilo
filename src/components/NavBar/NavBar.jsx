@@ -41,6 +41,8 @@ const NavBar = () => {
               <li>Connect</li>
             </Link>
           </ul>
+
+          
         </li>
        
 

@@ -22,7 +22,7 @@ function App() {
 
 function RootApp() {
   return (
-    <BrowserRouter basename={import.meta.env.BASE_URL}>
+    <BrowserRouter basename="/PortFoilo/">
       <App />
     </BrowserRouter>
   );
