@@ -3,12 +3,12 @@ import './Connect.scss'
 import {
   AccountCircle,
   Send,
-  Facebook,
+
   Instagram,
   Twitter,
   LinkedIn,
   GitHub,
-  WhatsApp,
+
 } from "@mui/icons-material";
 
 const Connect = () => {
@@ -49,23 +49,18 @@ const Connect = () => {
         <div className="social-media">
           <h3>Social Media</h3>
           <ul>
-            <li>
-              <Facebook className='icons'/> <a href="">Facebook</a>
-            </li>
-            <li>
+
+            {/* <li>
               <Instagram className='icons'/> <a href="">Instagram</a>
-            </li>
+            </li> */}
             <li>
               <Twitter className='icons'/> <a href="">Twitter</a>
             </li>
             <li>
-              <LinkedIn className='icons'/> <a href="https://www.linkedin.com/in/carl-nwanyanwu-1963812b9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a>
+              <LinkedIn className='icons'/> <a href="https://www.linkedin.com/in/carl-nwanyanwu-1963812b9/">LinkedIn</a>
             </li>
             <li>
-              <GitHub className='icons'/> <a href="">GitHub</a>
-            </li>
-            <li>
-              <WhatsApp className='icons'/> <a href="">WhatsApp</a>
+              <GitHub className='icons'/> <a href="https://github.com/imCarl01">GitHub</a>
             </li>
           </ul>
         </div>

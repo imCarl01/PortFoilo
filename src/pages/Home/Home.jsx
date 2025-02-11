@@ -54,7 +54,7 @@ const Home = () => {
         </div>
 
         <div className="btn">
-        <button><FileOpenIcon className='icon'/><a href="">View CV</a></button>
+        <button><FileOpenIcon className='icon'/><a href="https://drive.google.com/file/d/1knRtJVHxTNEISBQRhlhkj0PIXX3kAhmo/view?usp=drive_link">View CV</a></button>
       </div>
       </div>
 
@@ -65,7 +65,7 @@ const Home = () => {
         </div>
 
         <div className="yearOfExperience">
-          <h1>1+</h1>
+          <h1>2+</h1>
           Years of Experience
         </div>
 
