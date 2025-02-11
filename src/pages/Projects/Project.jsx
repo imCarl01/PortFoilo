@@ -32,9 +32,9 @@ const Project = () => {
             description="This Crypto website that allow users to see charts,buy crypto from third parties, invest etc.PS: it is cloned as a personal project"
             demoLink="https://trading-options-cloned.vercel.app/"
           />
-          
+           <Footer/>
         </div>
-        <Footer/>
+       
     </div>
    
   )
